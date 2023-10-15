@@ -1,0 +1,26 @@
+.nav{
+    max-width: 1400px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 50px;
+
+}
+.imageContent{
+    display: flex;
+    align-items: center;
+}
+
+.backBtn{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.migrateBtn{
+    font-weight: 500;
+    align-self: center
+}

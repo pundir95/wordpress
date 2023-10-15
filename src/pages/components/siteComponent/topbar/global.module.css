@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+.topBarMainContent {
+    border-bottom: 1px solid #d8d4d4;
+}
+
+.topBarContent {
+    max-width: 1240px;
+    margin: 28px auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.paraSite {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.largeBtn {
+    display: flex;
+    gap: 33px;
+}
+
+.manageBtn {
+    border: 1px solid gray;
+    padding: 9px 8px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.createBtn {
+    border: 1px solid gray;
+    padding: 9px 8px;
+    border-radius: 1px;
+    font-size: 14px;
+    background: #c9356e;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.chevron {
+    background: #c9356e;
+    padding: 10px 14px;
+    border-left: 0.78px solid #b3b3b3;
+    cursor: pointer;
+}
+
+.createBtn:hover {
+    background: #943559;
+}
+
+.chevron:hover {
+    background: #943559;
+}
+
+
+/* filter  */
+
+.leftContentFilter {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.searchField {
+    width: 400px;
+    height: 40px;
+}
+
+.searchField::placeholder {
+    font-size: 12px;
+}
+
+.filteredSite {
+    width: 160px;
+}
+
+.iconsFilter {
+    display: flex;
+    gap: 8px
+}
+
+/* siteList */
+
+.websiteContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1260px;
+    width: 100%;
+    margin: 28px auto;
+    gap: 28px;
+
+
+}
+
+.webImage {
+    border: 1px solid #e0e0e0;
+    padding: 11px;
+    border-radius: 3px;
+    height: 242px;
+    width: 395px;
+    cursor: pointer;
+}
+
+.webImage:hover {
+    border: 1px solid #837ff3;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hSiteTitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.actionItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px
+}
+
+.status {
+    font-size: 12px;
+    background: #bfbfc0;
+    /* color: #fff; */
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.statusTrail {
+    font-size: 12px;
+    background: #b7b7f3;
+    /* color: #fff; */
+    padding: 3px 6px;
+    border-radius: 4px;
+}
